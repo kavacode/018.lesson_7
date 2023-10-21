@@ -6,15 +6,15 @@
 */
 
 
-const power = (num, dagree) => {
-	if (dagree === 0) {
+const power = (num, degree) => {
+	if (degree === 0) {
 		return 1;
 	} else {
-		return num * power(num, dagree - 1);
+		return num * power(num, degree - 1);
 	}
 };
 
 const num = 2;
-const dagree = 3;
-const result = power(num, dagree);
-console.log(`${num}^${dagree} = ${result}`);
+const degree = 4;
+const result = power(num, degree);
+console.log(`${num}^${degree} = ${result}`);
