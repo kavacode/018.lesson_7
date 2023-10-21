@@ -6,7 +6,6 @@
 */
 
 
-
 const power = (num, dagree) => {
 	if (dagree === 0) {
 		return 1;
